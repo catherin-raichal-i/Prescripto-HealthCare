@@ -16,10 +16,12 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-lg text-gray-600'>Our Office</p>
 
-          <p className='text-gray-500'>S4709 Williams Station
-            <br />Suite 350, Washington, USA</p>
+          <p className='text-gray-500'>6th Floor, Tower C, Tek Meadows <br/>
+            No. 51, Sholinganallur, OMR <br />
+            Chennai, Tamil Nadu – 600119
+            </p>
 
-          <p className='text-gray-500'>Tel: 456 971 38 79
+          <p className='text-gray-500'>Tel: +91 98765 43210
             <br />Email: prescripto@gmail.com</p>
 
           <p className='font-semibold text-lg text-gray-600'>Careers at Prescripto</p>
@@ -34,5 +36,6 @@ const Contact = () => {
     </div>
   )
 }
+
 
 export default Contact
