@@ -13,8 +13,7 @@ const Header = () => {
                     <img className='w-28' src={assets.group_profiles} alt="" />
                     <p>Finding the right doctor shouldn’t be complicated. Browse our trusted doctors, pick the one that fits your needs, and book your appointment in just a few clicks.</p>
                     /*<p>Easily browse our extensive list of verified doctors, find the right specialist for your needs, <br className='hidden sm:block'/>
-                        and schedule your appointment hassle-free. Your health, made simple and convenient.</p>
-                    */
+                        and schedule your appointment hassle-free. Your health, made simple and convenient.</p> */
                 </div>
 
                 <a href="#speciality" className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
