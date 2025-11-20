@@ -13,12 +13,12 @@ const About = () => {
         <img className='w-full md:max-w-[360px]' src={assets.about_image} alt="" />
 
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, error repellendus odit maxime fugit excepturi. Maiores ex consectetur quaerat velit.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae labore recusandae fuga ab quisquam! Ad libero numquam hic reprehenderit asperiores?</p>
-
+          <p>Welcome to Prescripto, your reliable companion for effortlessly managing your healthcare needs. We recognize how challenging it can be to schedule doctor visits and keep track of health records, and our mission is to simplify that process.</p>
+          <p>At Prescripto, we are dedicated to innovation in healthcare technology. We continually enhance our platform, incorporating the latest tools and features to provide a smooth, user-friendly experience. Whether you are booking your first appointment or monitoring ongoing care, Prescripto is here to guide and support you at every step.</p>
+         
           <b className='text-gray-800'>Our vision</b>
-
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, veritatis recusandae? Architecto, non incidunt ab adipisci beatae cupiditate magni ipsa.</p>
+          
+          <p>At Prescripto, we aim to make healthcare simple, accessible, and personalized. We empower users to manage appointments, records, and care efficiently through an easy-to-use platform.</p>
         </div>
 
       </div>
@@ -31,20 +31,21 @@ const About = () => {
 
         <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-violet-500 hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
           <b>Efficiency:</b>
-          <p>Streamlined Appointment Scheduling 
-            That Fits Into Your Burry Lifestyle</p>
+          <p>Quick and seamless appointment scheduling 
+            designed to fit your busy life.</p>
+        
         </div>
 
         <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-violet-500 hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
           <b>Convience:</b>
-          <p>Access To A Network Of Trusted 
-            Healthcare Professionals in Your Area.</p>
+          <p>Instant access to a network of trusted 
+            healthcare professionals near you.</p>
         </div>
 
         <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-violet-500 hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
           <b>Personalization:</b>
-          <p>Tailored Recommendations And Reminders 
-            To Help You Stay On Top Of Your Health.</p>
+          <p>Smart recommendations and reminders to 
+            help you manage your health effortlessly.</p>
         </div>
 
       </div>
@@ -53,5 +54,6 @@ const About = () => {
     </div>
   )
 }
+
 
 export default About
