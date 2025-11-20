@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* Left section */}
                 <div>
                     <img className='mb-5 w-40' src={assets.logo} alt="" />
-                    <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas accusantium commodi quo totam placeat iure, tempore eveniet eum, blanditiis illum, aperiam odio! Perspiciatis ab doloribus numquam blanditiis dolores voluptatibus reiciendis?</p>
+                    <p className='w-full md:w-2/3 text-gray-600 leading-6'>We provide compassionate, high-quality healthcare with experienced doctors and specialists. Our focus is on personalized care, advanced treatments, and the well-being of every patient.</p>
                 </div>
 
 
@@ -46,5 +46,6 @@ const Footer = () => {
         </div>
     )
 }
+
 
 export default Footer
